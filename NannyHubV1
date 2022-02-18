@@ -1,3 +1,7 @@
+if game.Players.LocalPlayer.Name == "Bastichek04" then
+	game.Players.LocalPlayer:Kick("You are permantly banned(hacking)")
+end
+
 local NannyHub = Instance.new("ScreenGui")
 local NannyHubFrame = Instance.new("Frame")
 local NannyButtonDestroy = Instance.new("ImageButton")
@@ -459,4 +463,5 @@ end)
 
 InfAdminAplly.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-end)  
+end)
+
